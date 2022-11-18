@@ -7,8 +7,8 @@
 #include<stdio.h>
 #include<string.h>
 int max (int x, int y) { return (x > y)? x : y; }
-    int longest_palindrome(char a[], int i, int j)
-    {
+int longest_palindrome(char a[], int i, int j)
+{
      if (i == j)
       return 1;
     if (a[i] == a[j] && i + 1 == j)
