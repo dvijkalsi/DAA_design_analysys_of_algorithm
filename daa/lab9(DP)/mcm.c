@@ -52,7 +52,6 @@ void print_optimal_parens(int i, int j) {
 int main() {
     int i, j;
     printf("Enter the number of matrices: ");
-    //not working for more than 4 matrices
     scanf("%d", &n);
     p = (int *)malloc((n + 1) * sizeof(int));
     printf("Enter the dimensions of the matrices: ");
